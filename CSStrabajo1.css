@@ -19,3 +19,22 @@ t1{
     font-size: 30px;
     color: white;
 }
+c1 {
+    font-size: 50px;
+    font-weight:800;
+    color: white;
+    margin-left: 25%;
+}
+#subtitulo1 {
+    font-size: 30px;
+    color: white;
+}
+#conceptos1 {
+    font-size: 30px;
+    color: white;
+    padding-left: 50px;
+}
+#Conceptos2 {
+    color: white;
+    font-size: 25px;
+}
