@@ -1,7 +1,10 @@
+body{
+    background-color: black;
+}
 c1 {
     font-size: 50px;
     font-weight:800;
-    color: white;
+    color: black;
     margin-left: 25%;
 }
 #subtitulo1 {
@@ -16,4 +19,8 @@ c1 {
 #Conceptos2 {
     color: white;
     font-size: 25px;
+}
+table {
+    color: white;
+    width: 50%;
 }
