@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+d1 {
+    font-size: 50px;
+    font-weight:800;
+    color: white;
+    margin-left: 25%;
+}
+d2 {
+    font-size: 30px;
+    color: white;
+}
+d3{
+    font-size: 20px; 
+    color: white;
+}
+t1{
+    font-size: 30px;
+    color: white;
+}
