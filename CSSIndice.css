@@ -1,21 +1,21 @@
 body {
-    background-color: black;
+    background-color: whitesmoke;
 }
 d1 {
     font-size: 50px;
     font-weight:800;
-    color: white;
+    color: black;
     margin-left: 25%;
 }
 d2 {
     font-size: 30px;
-    color: white;
+    color: black;
 }
 d3{
     font-size: 20px; 
-    color: white;
+    color: black;
 }
 t1{
     font-size: 30px;
-    color: white;
+    color: black;
 }
