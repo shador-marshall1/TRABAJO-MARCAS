@@ -1,0 +1,20 @@
+body {
+    background-color: wheat;
+}
+#indCSS {
+    font-size: 20px;
+}
+#SobreCSS {
+    font-size: 20px;
+}
+#clasificacion {
+    margin-left: 15%;
+    font: oblique bold;
+    color: black;
+    font-size: 30px;
+}
+img {
+    width: 25%;
+    height: auto;
+    
+}
