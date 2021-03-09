@@ -6,9 +6,12 @@
         <meta name="autor" content="John Alejandro">
     </head>
     <body>
-        <h1>SOBRE EL USO DE CSS</h1>
+        <h1 style="text-align: center;">SOBRE EL USO DE CSS</h1>
+        <div id="indice">
         <h2>Indice</h2>
-        &nbsp;&nbsp;&nbsp;&nbsp;<a href="#Sobre">1. Sobre el uso de CSS</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="#Sobre">1. Sobre el uso de CSS</a> <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="#imagen1">2. Imagenes</a><br>
+        </div>
         <div id="indCSS">
             <p>Aquí tienes un pequeño índice para ir a las partes tratadas en esta página</p>
             
@@ -31,11 +34,27 @@
             <br>
         </div>
         <div id="Imagenes">
+            <a name="imagen1"></a>
             <h2>Sobre el tratamiento de imagenes</h2>
             <br>
             <p>Aquí aprenderemos cómo usar imagenes en HTML y darles formato con el CSS, ya sea en el propio docoumento de HTML o pasarlo directamente por el archivo CSS, por ejemplo: </p>
                 <br>
-                
+            <p>Hay diferentes etiquetas de estilo en las cuales podremos trabajar para darle estilo o modificar las imagenes, algunas tam simples como "width" y "height", para seleccionar el alto y el ancho de la misma imagen<br>
+            Por ejemplo:</p>
+            <br>
+            <img src="imagenes/ejemplo.jpg"> <br>
+            Imagen sin modificar <br>
+            <br>
+            <img src="imagenes/ejemplo.jpg" alt="Ejemplo" style="border-radius: 50%;"><br>
+            Imagen con "border-radius" del 50% <br>
+            <br>
+            <img src="imagenes/ejemplo.jpg" alt="ejemplo" style="opacity: 0.5;"><br>
+            Imagen con la etiqueta "opacity: 0.5;" <br>
+            <br>
+            <img src="imagenes/ejemplo.jpg" alt="ejemplo invertido" style="filter: invert(100%);"><br>
+            Imagen con la etiqueta "Filter: (invert(100%))" <br>
+            
         </div>
+        <a href="indice.html"><p>Pulsa aquí para volver al índice</p></a>
     </body>
 </html>

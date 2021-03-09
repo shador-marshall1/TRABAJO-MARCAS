@@ -4,6 +4,9 @@ body {
 #indCSS {
     font-size: 20px;
 }
+#indice {
+    font-size: 20px;
+}
 #SobreCSS {
     font-size: 20px;
 }
@@ -17,4 +20,8 @@ img {
     width: 25%;
     height: auto;
     
+}
+#Imagenes {
+    font-size: 20px;
+    color: black;
 }
