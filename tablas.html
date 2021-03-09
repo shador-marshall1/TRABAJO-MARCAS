@@ -13,10 +13,20 @@
         <div id="explicacion">
             <h2>¿Cómo crear y utilizar tablas?</h2>
             <br>
-            <p>Podemos utilizar muchas etiquetas</p>
+            <p>Podemos utilizar muchas etiquetas, pero hay que tener un par de conceptos básicos en mente:</p>
+            &nbsp;&nbsp;&nbsp;&nbsp; 1. Para crear una tabla se empieza con la etiqueta "Table", en la que dentro podremos especificar el borde de la misma<br>
+            &nbsp;&nbsp;&nbsp;&nbsp; 2. Usaremos la etiqueta "TR" para crear una nueva fila, dentro de la misma vendrá la etiqueta "TD", para crear el contenido de cada fila <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;    Hay que tener en cuenta que dentro de TD podremos poner directrices usando otras etiquetas <br>
+            &nbsp;&nbsp;&nbsp;&nbsp; 3. Etiqueta "COLSPAN" para elegir el número de filas que se expandirá, por ejemplo, "Recreo", tiene "COLSPAN="5"" <BR>
+            &nbsp;&nbsp;&nbsp;&nbsp; 4. Etiqueta "rowspan" para seleccionar cuantas columnas hacia abajo ocupará, tener en cuenta que si tiene "rowspan="2"", el siguiente TR ocupará la correspondiente posicion <BR>
+            &nbsp;&nbsp;&nbsp;&nbsp; 5. Se puede usar "border" para seleccionar la anchura del borde de la tabla, la actual tiene "border=1px;", se puede usar "align" para seleccionar la pocision del texto, en este caso, RECREO tiene "ALING="CENTER"" <BR>
+            &nbsp;&nbsp;&nbsp;&nbsp; 6. Etiqueta "Width", en CSS, para seleccionar el largo de página <br>
+            &nbsp;&nbsp;&nbsp;&nbsp; 7. Dentro de los TD poremos poner le etiqueta "BGCOLOR="COLOR"" para seleccionar el color de fondo de las celdas, pondremos el fondo de color rojo todas las celdas que contengan FOL
+                <P>Usaremos el siguiente ejemplo para ver las diferentes opciones de creación, ya especificadas abajo.</P>
         </div>
+        <BR>
         <div id="Tabla1">
-            <table border=1px;>
+            <table border=1px; align="center">
                 <tr>
                     <td>Hora</td>
                     <td>Lunes</td>
@@ -40,7 +50,7 @@
                 <tr>
                     <td>10:15</td>
                     <td>PRO</td>
-                    <td>FOL</td>
+                    <td bgcolor="red">FOL</td>
                     <td>SI</td>
                     <td>PRO</td>
                 </tr>
@@ -53,7 +63,7 @@
                     <td rowspan="2">PRO</td>
                     <td>SI</td>
                     <td>SI</td>
-                    <td>FOL</td>
+                    <td bgcolor="red">FOL</td>
                     <td rowspan="2">PRO</td>
                 </tr>
                 <tr>
@@ -66,10 +76,40 @@
                     <td>13:25</td>
                     <td>IN</td>
                     <td>ED</td>
-                    <TD>FOL</TD>
+                    <TD bgcolor="red">FOL</TD>
                 </tr>
             </table>
 
+        </div>
+        <br>
+        <br>
+        <div id="Tabla 2">
+            <table border=1px; align="center">
+                <tr>
+                    <td>Consolas:</td>
+                    <td>Consola de primera generación</td>
+                    <td>Consola de segunda generación</td>
+                    <td>Consola de tercera generación</td>
+                </tr>
+                <tr>
+                    <td>Imagenes</td>
+                    <td align="center"><img src="imagenes/PS1.jpg" alt="PS1" height="200" width="200"></td>
+                    <td align="center"><img src="imagenes/PS2..jfif" alt="ps2" height="200" width="200"></td>
+                    <td align="center"> <img src="imagenes/PS3.jfif" alt="ps3" height="200" width="200"></td>
+                </tr>
+                <tr>
+                    <td>Precio</td>
+                    <td align="center">350€</td>
+                    <td align="center">400€</td>
+                    <td align="center">500€</td>
+                </tr>
+                <tr>
+                    <td>Disponibilidad</td>
+                    <td align="CENTER">No</td>
+                    <td align="center">Limitada</td>
+                    <td align="center">Completa</td>
+                </tr>
+            </table>
         </div>
     </body>
 </html>
